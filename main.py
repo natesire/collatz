@@ -11,7 +11,7 @@
 # can try larger numbers too
 n = 3
     
-def formula(n):
+def formulaIfOdd(n):
     return 3 * n + 1    
     
 while(1):
@@ -23,5 +23,5 @@ while(1):
         n = n / 2
         print(n)
     else: 
-        n = formula(n)
+        n = formulaIfOdd(n)
         print(n)
