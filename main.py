@@ -9,19 +9,19 @@
 
 # pick any positive n from 1 to 9 inclusive
 # can try larger numbers too
-n = 30
+n = 3
+    
+def formula(n):
+    return 3 * n + 1    
     
 while(1):
-    if n == 2.0:
+    if n == 1.0:
         break
     
     # if r is even then divide by 2
-    if n % 2 == 0:
+    if n % 2 == 0.0:
         n = n / 2
         print(n)
-        
-    # if r is odd then apply again
-    if n % 2 != 0:
-        n = 3 * n + 1
+    else: 
+        n = formula(n)
         print(n)
-            
