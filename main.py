@@ -13,7 +13,7 @@ def formulaIfOdd(n, multiplyBy=3):
     return multiplyBy * n + 1    
 
 def calculateConjecture(n, multBy=3):
-    print("Conjecture for " + str(n))
+    print("Conjecture for " + str(n) + " is multiplied by " + str(multBy) + " * n + 1")
     while(1):
         if n == 1.0:
             break
@@ -22,9 +22,10 @@ def calculateConjecture(n, multBy=3):
         if n % 2 == 0.0:
             n = n / 2
             print(n)
-        else: 
+        else: # if odd apply the 3n + 1
             n = formulaIfOdd(n, multBy)
             print(n)
+            
     return n
 
 # start at, multiply * n + 1
@@ -33,8 +34,9 @@ calculateConjecture(3, 3)
 calculateConjecture(1000, 3)
 
 # 8 works with any multiplier. it is the infinite number. God's number. twisted zero into plane of existance.
-
-# n=8 works for any k*n+1
+# opposite, pick same n for different k*n+1
+# n=8 works for all k*n+1
+# this just shows that all multiples of n=2 will reduce back to the 4,2,1 loop
 calculateConjecture(8, 1)
 calculateConjecture(8, 2)
 calculateConjecture(8, 3)
@@ -45,4 +47,4 @@ calculateConjecture(8, 7)
 calculateConjecture(8, 8)
 calculateConjecture(8, 9)
 calculateConjecture(8, 91)
-calculateConjecture(8, 912)
+calculateConjecture(8, 91212) # try some big number
