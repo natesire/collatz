@@ -10,6 +10,8 @@
 # pick any positive n from 1 to 9 inclusive
 # can try larger numbers too
 # 3n+1 will toggle even odd so applying it to odds will result in evens
+# this means there won't be consecutive odd growth
+# more chances to find a power of 2 that reduces all the way down to the 4,2,1 loop
 def formulaIfOdd(n, multiplyBy=3):
     return multiplyBy * n + 1    
 
