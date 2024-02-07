@@ -36,6 +36,9 @@ calculateConjecture(3)
 calculateConjecture(3, 3)
 calculateConjecture(1000, 3)
 
+# large number loop
+calculateConjecture(6,4)
+
 # 8 works with any multiplier. it is the infinite number. God's number. twisted zero into plane of existance.
 # opposite, pick same n for different k*n+1
 # n=8 works for all k*n+1
