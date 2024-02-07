@@ -37,6 +37,7 @@ calculateConjecture(3, 3)
 calculateConjecture(1000, 3)
 
 # large number loop
+# no has proved large number loops don't exist for 3n+1
 calculateConjecture(6,4)
 
 # 8 works with any multiplier. it is the infinite number. God's number. twisted zero into plane of existance.
