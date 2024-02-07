@@ -3,10 +3,6 @@
 # 6n+1 works for 4, 8
 # 9n + 1 works for 3, 6, 7, 8
 
-# what about 4n+1
-# works for 4, 8
-# 6 and 10 stuck in a large infinite loop
-
 # pick any positive n from 1 to 9 inclusive
 # can try larger numbers too
 # 3n+1 will toggle even odd so applying it to odds will result in evens
@@ -31,20 +27,25 @@ def calculateConjecture(n, multBy=3):
             
     return n
 
-# start at, multiply * n + 1
+
 calculateConjecture(3)
 calculateConjecture(3, 3)
 calculateConjecture(1000, 3)
 
-# large number loop
-# no has proved large number loops don't exist for 3n+1
-calculateConjecture(6,4)
+# large number loop for 4n+1
+# no has proved large number loop(s) don't exist for 3n+1
+# calculateConjecture(6,4)
+# calculateConjecture(10,4)
+
+# these reduce to 4,2,1
+# calculateConjecture(4,4)
+# calculateConjecture(8,4)
 
 # 8 works with any multiplier. it is the infinite number. God's number. twisted zero into plane of existance.
 # opposite, pick same n for different k*n+1
 # n=8 works for all k*n+1
 # this just shows that all multiples of n=2 will reduce back to the 4,2,1 loop
-calculateConjecture(8, 1)
+'''calculateConjecture(8, 1)
 calculateConjecture(8, 2)
 calculateConjecture(8, 3)
 calculateConjecture(8, 4)
@@ -54,4 +55,5 @@ calculateConjecture(8, 7)
 calculateConjecture(8, 8)
 calculateConjecture(8, 9)
 calculateConjecture(8, 91)
-calculateConjecture(8, 91212) # try some big number
+calculateConjecture(8, 91212) # try some big number'''
+
