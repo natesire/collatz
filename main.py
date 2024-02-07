@@ -37,9 +37,16 @@ calculateConjecture(1000, 3)
 # calculateConjecture(6,4)
 # calculateConjecture(10,4)
 
+# will it ever hit a number that's a power of 2? that's the question
 # these reduce to 4,2,1
+# calculateConjecture(1,4)
+# calculateConjecture(2,4)
+# calculateConjecture(3,4) # too large to know
 # calculateConjecture(4,4)
+# calculateConjecture(5,4)
+# calculateConjecture(7,4) # too large to know
 # calculateConjecture(8,4)
+# calculateConjecture(9,4) # breaks, too large
 
 # 8 works with any multiplier. it is the infinite number. God's number. twisted zero into plane of existance.
 # opposite, pick same n for different k*n+1
