@@ -36,7 +36,7 @@ def digitalRoot(n):
 # 3n+1 toggles odds and evens
 # turning all odds to evens means you always eventually hit a power of 2 which reduces back to the 4,2,1 loop
 #calculateConjecture(n=3, multiplyBy=3)
-#calculateConjecture(n=3, multiplyBy=3)
+calculateConjecture(n=12, multiplyBy=3)
 # the digital root always stays on the doubling plane. never 3,6,9
 # the median number should revolve around 2^n
 # calculateConjecture(n=1000, multiplyBy=3) # digital root 1,2,4,5,7,8
